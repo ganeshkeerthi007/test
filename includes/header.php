@@ -1,6 +1,6 @@
 <?php
-include("includes/connection.php");
-include("functions/functions.php");
+include("connection.php");
+include("../functions/functions.php");
 ?> 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
