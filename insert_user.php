@@ -53,7 +53,7 @@ include("includes/connection.php");
 			echo "<script>window.open('signin.php', '_self')</script>";
 		}
 		else{
-			echo "<script>alert('Registration failed, please try again!')</script>";
+			echo "<script>alert('$query')</script>";
 			echo "<script>window.open('signup.php', '_self')</script>";
 		}
 	}
